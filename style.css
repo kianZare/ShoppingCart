@@ -108,6 +108,9 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.product:hover{
+    scale: 1.1;
+}
 
 .product-img{
     width: 100%;
@@ -184,6 +187,7 @@ body{
 .cart-cotent{
     padding: 1rem;
 }
+
 .cart-items{
     width: 100%;
     display: flex;
