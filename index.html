@@ -9,65 +9,68 @@
     <title>Shopping Cart</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navbar-center">
-            <span class="bar-icon">
-                <i class="fa-solid fa-bars"></i>
-            </span>
-            <p class="nav-title">Kian Shop</p>
-            <span class="cart-btn">
-                <i class="fas fa-cart-plus"></i>
-                <span class="cart-item">0</span>
-            </span>
-        </div>
-    </nav>
-    <!-- products -->
-    <section>
-        <div class="products">
-            <h2 class="section-title">Our Products</h2>
-            <!-- single products -->
-            <div class="products-center">
-                <!-- products -->
-                <!-- <section class="product">
-                    <div class="img-container">
-                        <img class="product-img" src="./images/product-1.jpeg" alt="p -1">
+    <div class="main">
+        <nav class="navbar">
+            <div class="navbar-center">
+                <span class="bar-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+                <p class="nav-title">Kian Shop</p>
+                <span class="cart-btn">
+                    <i class="fas fa-cart-plus"></i>
+                    <span class="cart-item">0</span>
+                </span>
+            </div>
+        </nav>
+        <!-- products -->
+        <section>
+            <div class="products">
+                <h2 class="section-title">Our Products</h2>
+                <!-- single products -->
+                <div class="products-center">
+                    <!-- products -->
+                    <!-- <section class="product">
+                        <div class="img-container">
+                            <img class="product-img" src="./images/product-1.jpeg" alt="p -1">
+                        </div>
+                        <div class="product-desc">
+                            <p class="product-title">Queen panel bed</p>
+                            <p class="product-price">£ 999.99</p>
+                        </div>
+                        <button class="add-to-cart">add to cart</button>
+                    </section> -->
                     </div>
-                    <div class="product-desc">
-                        <p class="product-title">Queen panel bed</p>
-                        <p class="product-price">£ 999.99</p>
-                    </div>
-                    <button class="add-to-cart">add to cart</button>
-                </section> -->
+    
+        <!-- cart section -->
+        <section class="cart-center">
+            <div class="backdrop"></div>
+            <div class="cart">
+                <h3 class="cart-title">Your Cart</h3>
+                <div class="cart-content">
+                    <!-- single item -->
+                    <!-- <div class="cart-items">
+                        <img class="cart-item-img" src="./images/product-1.jpeg"/>
+                        <div class="cart-item-desc">
+                            <h4>Product title</h4>
+                            <h5>£ 999.99</h5>
+                        </div>
+                        <div class="cart-item-conteoller">
+                            <i class="fas fa-chevron-up"></i>
+                            <p>1</p>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <i class="far fa-trash-alt"></i>
+                    </div> -->
                 </div>
-
-    <!-- cart section -->
-    <section class="cart-center">
-        <div class="backdrop"></div>
-        <div class="cart">
-            <h3 class="cart-title">Your Cart</h3>
-            <div class="cart-content">
-                <!-- single item -->
-                <!-- <div class="cart-items">
-                    <img class="cart-item-img" src="./images/product-1.jpeg"/>
-                    <div class="cart-item-desc">
-                        <h4>Product title</h4>
-                        <h5>£ 999.99</h5>
-                    </div>
-                    <div class="cart-item-conteoller">
-                        <i class="fas fa-chevron-up"></i>
-                        <p>1</p>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <i class="far fa-trash-alt"></i>
-                </div> -->
+                <div class="cart-footer">
+                    <span class="cart-total">Total price: £ 999.00</span>
+                    <button class="btn clear-cart">clear cart</button>
+                    <button class="btn cart-item-confirm">confirm</button>
+                </div>
             </div>
-            <div class="cart-footer">
-                <span class="cart-total">Total price: £ 999.00</span>
-                <button class="btn clear-cart">clear cart</button>
-                <button class="btn cart-item-confirm">confirm</button>
-            </div>
-        </div>
-    </section>
+        </section>
+    
+    </div>
     <script type="module" src="./app.js"></script>
 </body>
 </html>
